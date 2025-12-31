@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Legacy Music Academy — practical drumming lessons for beginner, intermediate, and advanced students. Saturdays at Oracle of Praise Open Bible, Arima." />
+  <title>Legacy Music Academy | Features</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="Legacy Music Academy home">
+      <img class="mark mark-img" src="assets/logo-mark.png" alt="Legacy Music Academy logo" />
+      <span>Legacy Music Academy</span>
+    </a>
+
+    <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+
+    <nav id="navlinks" class="navlinks" data-navlinks>
+      <a href="index.html" >Home</a>
+      <a href="about.html" >About</a>
+      <a href="features.html" aria-current="page">Features</a>
+      <a href="payments.html" >Payments</a>
+      <a href="contact.html" >Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  
+<section class="section">
+  <div class="container">
+    <div class="card card-pad">
+      <div class="kicker">Features</div>
+      <h1>Everything you need to grow as a drummer</h1>
+      <p>Our curriculum is practical and performance-driven. Each student receives level-appropriate material and coaching.</p>
+
+      <div class="hr"></div>
+
+      <h2>Learning material includes</h2>
+      <div class="grid-2">
+        <div class="card feature">
+          <div class="icon">A</div>
+          <h3>Technique</h3>
+          <ul class="list">
+            <li>Grip, rebound, control, and dynamics</li>
+            <li>Rudiments &amp; stick control</li>
+            <li>Sound and tone on the kit</li>
+          </ul>
+        </div>
+        <div class="card feature">
+          <div class="icon">B</div>
+          <h3>Grooves</h3>
+          <ul class="list">
+            <li>Timing and pocket</li>
+            <li>Common worship &amp; contemporary patterns</li>
+            <li>Variations and fills</li>
+          </ul>
+        </div>
+        <div class="card feature">
+          <div class="icon">C</div>
+          <h3>Independence</h3>
+          <ul class="list">
+            <li>Hand/foot coordination</li>
+            <li>Hi-hat control</li>
+            <li>Creative orchestration</li>
+          </ul>
+        </div>
+        <div class="card feature">
+          <div class="icon">D</div>
+          <h3>Speed &amp; Endurance</h3>
+          <ul class="list">
+            <li>Speed-building exercises</li>
+            <li>Relaxation and stamina</li>
+            <li>Consistent tempo at higher BPM</li>
+          </ul>
+        </div>
+        <div class="card feature">
+          <div class="icon">E</div>
+          <h3>Phrasing</h3>
+          <ul class="list">
+            <li>Musical sentences, builds, and drops</li>
+            <li>Transitions and dynamics</li>
+            <li>Serving the song</li>
+          </ul>
+        </div>
+        <div class="card feature">
+          <div class="icon">F</div>
+          <h3>Live music &amp; tracks</h3>
+          <ul class="list">
+            <li>Playing to click and backing tracks</li>
+            <li>Stage awareness and cues</li>
+            <li>Confidence for live ministry</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <h2>Levels</h2>
+      <table class="table" aria-label="Lesson levels">
+        <thead>
+          <tr><th>Level</th><th>Best for</th><th>Focus</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Beginner</strong></td><td>New drummers</td><td>Fundamentals, time, basic grooves, coordination</td></tr>
+          <tr><td><strong>Intermediate</strong></td><td>Some experience</td><td>Independence, fills, consistency, speed development</td></tr>
+          <tr><td><strong>Advanced</strong></td><td>Performance-ready</td><td>Phrasing, dynamics, live skills, stylistic mastery</td></tr>
+        </tbody>
+      </table>
+
+      <div class="cta-row">
+        <a class="btn primary" href="contact.html">Ask about your level</a>
+        <a class="btn" href="payments.html">View payment options</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <strong style="color: var(--text);">Legacy Music Academy</strong><br/>
+      <small>Holistic Academy &amp; Character Development • Practical Drumming • Saturdays</small>
+      <div class="hr"></div>
+      <small>Location: Oracle of Praise Open Bible, Arima</small><br/>
+      <small>Contact: <a href="tel:+18683386847">338-6847</a> • Email: <a href="mailto:mikealexis1995@gmail.com">mikealexis1995@gmail.com</a></small>
+    </div>
+    <div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="payments.html">Payments</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="hr"></div>
+      <small>© <span id="year"></span> Legacy Music Academy. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

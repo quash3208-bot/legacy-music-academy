@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Legacy Music Academy — practical drumming lessons for beginner, intermediate, and advanced students. Saturdays at Oracle of Praise Open Bible, Arima." />
+  <title>Legacy Music Academy | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="Legacy Music Academy home">
+      <img class="mark mark-img" src="assets/logo-mark.png" alt="Legacy Music Academy logo" />
+      <span>Legacy Music Academy</span>
+    </a>
+
+    <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+
+    <nav id="navlinks" class="navlinks" data-navlinks>
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html" >About</a>
+      <a href="features.html" >Features</a>
+      <a href="payments.html" >Payments</a>
+      <a href="contact.html" >Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="card card-pad">
+      <div class="kicker">Holistic Academy &amp; Character Development</div>
+      <h1>Practical Drumming Lessons that build skill, confidence, and worship excellence.</h1>
+      <p>Legacy Music Academy helps students grow in musicianship and character through structured, hands-on drum training — from fundamentals to live performance readiness.</p>
+      <div class="badges">
+        <div class="badge">Beginner</div>
+        <div class="badge">Intermediate</div>
+        <div class="badge">Advanced</div>
+        <div class="badge">Saturdays • Arima</div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="grid-2">
+        <div class="note">
+          <strong>Price</strong><br/>
+          $300 per month
+        </div>
+        <div class="note">
+          <strong>Location</strong><br/>
+          Oracle of Praise Open Bible, Arima
+        </div>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn primary" href="contact.html">Enroll / Ask a Question</a>
+        <a class="btn" href="features.html">See What You’ll Learn</a>
+        <a class="btn" href="payments.html">Payment Options</a>
+      </div>
+    </div>
+
+    <div class="card hero-media">
+      <img src="assets/michael-drums.jpg" alt="Michael Alexis playing drums on stage" />
+      <div class="overlay" aria-hidden="true"></div>
+      <div class="caption">
+        <strong>Drum Tutor: Michael Alexis</strong>
+        <small>Versatile drummer • Worship musician • Performance experience</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid-3">
+      <div class="card feature">
+        <div class="icon">01</div>
+        <h3>Technique &amp; Control</h3>
+        <p>Grip, posture, stroke mechanics, dynamics, and endurance—built correctly from day one.</p>
+      </div>
+
+      <div class="card feature">
+        <div class="icon">02</div>
+        <h3>Grooves &amp; Independence</h3>
+        <p>Develop solid time, coordination, and musical confidence across styles and tempos.</p>
+      </div>
+
+      <div class="card feature">
+        <div class="icon">03</div>
+        <h3>Live-Ready Training</h3>
+        <p>Phrasing, transitions, speed exercises, and playing to tracks — the skills you need on stage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card card-pad">
+      <h2>What you’ll get each month</h2>
+      <ul class="list">
+        <li>Clear weekly focus (Saturdays) with practice targets.</li>
+        <li>Structured material for your level and goals.</li>
+        <li>Accountability and feedback to help you progress faster.</li>
+      </ul>
+      <p><small>Ready to start? Visit the Contact page to message us and reserve a Saturday spot.</small></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <strong style="color: var(--text);">Legacy Music Academy</strong><br/>
+      <small>Holistic Academy &amp; Character Development • Practical Drumming • Saturdays</small>
+      <div class="hr"></div>
+      <small>Location: Oracle of Praise Open Bible, Arima</small><br/>
+      <small>Contact: <a href="tel:+18683386847">338-6847</a> • Email: <a href="mailto:mikealexis1995@gmail.com">mikealexis1995@gmail.com</a></small>
+    </div>
+    <div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="payments.html">Payments</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="hr"></div>
+      <small>© <span id="year"></span> Legacy Music Academy. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

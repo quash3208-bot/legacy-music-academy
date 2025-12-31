@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Legacy Music Academy — practical drumming lessons for beginner, intermediate, and advanced students. Saturdays at Oracle of Praise Open Bible, Arima." />
+  <title>Legacy Music Academy | Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html" aria-label="Legacy Music Academy home">
+      <img class="mark mark-img" src="assets/logo-mark.png" alt="Legacy Music Academy logo" />
+      <span>Legacy Music Academy</span>
+    </a>
+
+    <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+
+    <nav id="navlinks" class="navlinks" data-navlinks>
+      <a href="index.html" >Home</a>
+      <a href="about.html" >About</a>
+      <a href="features.html" >Features</a>
+      <a href="payments.html" >Payments</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  
+<section class="section">
+  <div class="container">
+    <div class="card card-pad">
+      <div class="kicker">Contact</div>
+      <h1>Let’s get you started</h1>
+      <p>Message us to enroll, ask about your level, or confirm your Saturday slot.</p>
+
+      <div class="hr"></div>
+
+      <div class="grid-2">
+        <div>
+          <h2>Contact info</h2>
+          <p><strong>Phone:</strong> <a href="tel:+18683386847">338-6847</a></p>
+          <p><strong>Email:</strong> <a href="mailto:mikealexis1995@gmail.com">mikealexis1995@gmail.com</a></p>
+          <p><strong>Location:</strong> Oracle of Praise Open Bible, Arima</p>
+          <p><strong>Days:</strong> Saturdays</p>
+          <p><strong>Price:</strong> $300 per month</p>
+
+          <div class="hr"></div>
+
+          <div class="note">
+            <strong>What to include in your message</strong>
+            <ul class="list">
+              <li>Your name</li>
+              <li>Your current level (Beginner / Intermediate / Advanced)</li>
+              <li>Any goals (worship drumming, speed, independence, etc.)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h2>Quick inquiry form</h2>
+          <form class="form" data-contact-form data-email="mikealexis1995@gmail.com">
+            <label>
+              <span class="kicker" style="letter-spacing:.12em;">Name</span>
+              <input name="name" required placeholder="Your name" />
+            </label>
+
+            <label>
+              <span class="kicker" style="letter-spacing:.12em;">Phone (optional)</span>
+              <input name="phone" placeholder="e.g., 338-6847" />
+            </label>
+
+            <label>
+              <span class="kicker" style="letter-spacing:.12em;">Level</span>
+              <select name="level" required>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+              </select>
+            </label>
+
+            <label>
+              <span class="kicker" style="letter-spacing:.12em;">Message</span>
+              <textarea name="message" required placeholder="Tell us your goals and any experience you have."></textarea>
+            </label>
+
+            <button class="btn primary" type="submit">Send</button>
+            <div class="success note" data-success>
+              Your email app should open with your message pre-filled. If it doesn’t, email us directly at <a href="mailto:mikealexis1995@gmail.com">mikealexis1995@gmail.com</a>.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <strong style="color: var(--text);">Legacy Music Academy</strong><br/>
+      <small>Holistic Academy &amp; Character Development • Practical Drumming • Saturdays</small>
+      <div class="hr"></div>
+      <small>Location: Oracle of Praise Open Bible, Arima</small><br/>
+      <small>Contact: <a href="tel:+18683386847">338-6847</a> • Email: <a href="mailto:mikealexis1995@gmail.com">mikealexis1995@gmail.com</a></small>
+    </div>
+    <div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="payments.html">Payments</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="hr"></div>
+      <small>© <span id="year"></span> Legacy Music Academy. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
